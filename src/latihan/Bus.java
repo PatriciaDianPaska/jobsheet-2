@@ -12,9 +12,27 @@ package latihan;
 public class Bus {
     public int penumpang;
     public int maxPenumpang;
+
+    Bus() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public Bus(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    
     
     public void cetak (){
         System.out.println("Penumpang Bus sekarang adalah "+ penumpang);
         System.out.println("Penumpang maksimum seharusnya adalah "+ maxPenumpang);
+    }
+
+    public void getPenumpang(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public String getAverage() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
